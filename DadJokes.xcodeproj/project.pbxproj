@@ -12,6 +12,7 @@
 		8161D81927C5449E00DFFF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8161D81827C5449E00DFFF25 /* Assets.xcassets */; };
 		8161D81C27C5449E00DFFF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8161D81B27C5449E00DFFF25 /* Preview Assets.xcassets */; };
 		8161D82527C54A4900DFFF25 /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8161D82427C54A4900DFFF25 /* DadJoke.swift */; };
+		B201AA1027CC17FB00052BC9 /* SharedFunctionsAndConstince.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201AA0F27CC17FB00052BC9 /* SharedFunctionsAndConstince.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8161D81827C5449E00DFFF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8161D81B27C5449E00DFFF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8161D82427C54A4900DFFF25 /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
+		B201AA0F27CC17FB00052BC9 /* SharedFunctionsAndConstince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstince.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				8161D81427C5449D00DFFF25 /* DadJokesApp.swift */,
+				B201AA0E27CC17B100052BC9 /* Shared */,
 				8161D82227C549EB00DFFF25 /* Model */,
 				8161D82327C549F500DFFF25 /* Views */,
 				8161D81827C5449E00DFFF25 /* Assets.xcassets */,
@@ -84,6 +87,14 @@
 				8161D81627C5449D00DFFF25 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B201AA0E27CC17B100052BC9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B201AA0F27CC17FB00052BC9 /* SharedFunctionsAndConstince.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				8161D81727C5449D00DFFF25 /* ContentView.swift in Sources */,
 				8161D81527C5449D00DFFF25 /* DadJokesApp.swift in Sources */,
 				8161D82527C54A4900DFFF25 /* DadJoke.swift in Sources */,
+				B201AA1027CC17FB00052BC9 /* SharedFunctionsAndConstince.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
